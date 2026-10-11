@@ -1,17 +1,31 @@
 {
   "project_name": "TikTok大会10页Deck",
-  "current_version": "v1.3.0",
+  "current_version": "v1.4.0",
   "workflow": "agile-product-factory",
   "pages": 10,
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-11",
-  "delivery_status": "verified_release_candidate",
+  "delivery_status": "source_reviewed_browser_verified_release_candidate",
   "physical_phone_verified": false,
-  "content_iteration": "v1.2.1",
+  "content_iteration": "v1.4.0",
   "runtime_version": "v1.3.0",
   "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/",
   "preserved_concurrent_brand_and_motion_changes": true,
   "browser_verified": true,
-  "mobile_viewport_verified": true
+  "mobile_viewport_verified": true,
+  "versions": [
+    "v1.4.0"
+  ],
+  "source_reviewed": true,
+  "normal_speed_full_audiovisual_reviewed": false,
+  "baseline_assets_preserved": true,
+  "local_browser_checks": {
+    "passed": 577,
+    "total": 577
+  },
+  "content_checks": {
+    "passed": 61,
+    "total": 61
+  }
 }
