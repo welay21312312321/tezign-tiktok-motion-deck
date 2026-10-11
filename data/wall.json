@@ -1,0 +1,152 @@
+{
+  "version": "v1.2.0",
+  "videos": [
+    {
+      "id": "wall-01",
+      "src": "assets/wall/wall-01.mp4",
+      "poster": "assets/wall/wall-01.jpg",
+      "label": "海外作品 01 · 手机本地化混剪",
+      "duration": 15.433333
+    },
+    {
+      "id": "wall-02",
+      "src": "assets/wall/wall-02.mp4",
+      "poster": "assets/wall/wall-02.jpg",
+      "label": "海外作品 02 · 手机本地化混剪",
+      "duration": 15.633008
+    },
+    {
+      "id": "wall-03",
+      "src": "assets/wall/wall-03.mp4",
+      "poster": "assets/wall/wall-03.jpg",
+      "label": "海外作品 03 · 手机本地化混剪",
+      "duration": 29.533008
+    },
+    {
+      "id": "wall-04",
+      "src": "assets/wall/wall-04.mp4",
+      "poster": "assets/wall/wall-04.jpg",
+      "label": "海外作品 04 · 手机本地化混剪",
+      "duration": 19.666016
+    },
+    {
+      "id": "wall-05",
+      "src": "assets/wall/wall-05.mp4",
+      "poster": "assets/wall/wall-05.jpg",
+      "label": "海外作品 05 · 手机本地化混剪",
+      "duration": 20.833333
+    },
+    {
+      "id": "wall-06",
+      "src": "assets/wall/wall-06.mp4",
+      "poster": "assets/wall/wall-06.jpg",
+      "label": "海外作品 06 · 手机本地化混剪",
+      "duration": 19.0
+    },
+    {
+      "id": "wall-07",
+      "src": "assets/wall/wall-07.mp4",
+      "poster": "assets/wall/wall-07.jpg",
+      "label": "海外作品 07 · 拉美电商",
+      "duration": 22.7
+    },
+    {
+      "id": "wall-08",
+      "src": "assets/wall/wall-08.mp4",
+      "poster": "assets/wall/wall-08.jpg",
+      "label": "海外作品 08 · 拉美电商",
+      "duration": 27.466667
+    },
+    {
+      "id": "wall-09",
+      "src": "assets/wall/wall-09.mp4",
+      "poster": "assets/wall/wall-09.jpg",
+      "label": "海外作品 09 · 拉美电商",
+      "duration": 24.566016
+    },
+    {
+      "id": "wall-10",
+      "src": "assets/wall/wall-10.mp4",
+      "poster": "assets/wall/wall-10.jpg",
+      "label": "海外作品 10 · AIGC精品",
+      "duration": 20.0
+    },
+    {
+      "id": "wall-11",
+      "src": "assets/wall/wall-11.mp4",
+      "poster": "assets/wall/wall-11.jpg",
+      "label": "海外作品 11 · AIGC精品",
+      "duration": 21.266016
+    },
+    {
+      "id": "wall-12",
+      "src": "assets/wall/wall-12.mp4",
+      "poster": "assets/wall/wall-12.jpg",
+      "label": "海外作品 12 · AIGC精品",
+      "duration": 9.2
+    },
+    {
+      "id": "wall-13",
+      "src": "assets/wall/wall-13.mp4",
+      "poster": "assets/wall/wall-13.jpg",
+      "label": "海外作品 13 · AIGC精品",
+      "duration": 14.9
+    },
+    {
+      "id": "wall-14",
+      "src": "assets/wall/wall-14.mp4",
+      "poster": "assets/wall/wall-14.jpg",
+      "label": "海外作品 14 · 品牌社媒混剪",
+      "duration": 45.9
+    },
+    {
+      "id": "wall-15",
+      "src": "assets/wall/wall-15.mp4",
+      "poster": "assets/wall/wall-15.jpg",
+      "label": "海外作品 15 · 品牌社媒混剪",
+      "duration": 67.333333
+    },
+    {
+      "id": "wall-16",
+      "src": "assets/wall/wall-16.mp4",
+      "poster": "assets/wall/wall-16.jpg",
+      "label": "海外作品 16 · 品牌社媒混剪",
+      "duration": 48.133333
+    },
+    {
+      "id": "wall-17",
+      "src": "assets/wall/wall-17.mp4",
+      "poster": "assets/wall/wall-17.jpg",
+      "label": "海外作品 17 · AIGC品牌素材混剪",
+      "duration": 47.4
+    },
+    {
+      "id": "wall-18",
+      "src": "assets/wall/wall-18.mp4",
+      "poster": "assets/wall/wall-18.jpg",
+      "label": "海外作品 18 · AIGC品牌素材混剪",
+      "duration": 47.2
+    },
+    {
+      "id": "wall-19",
+      "src": "assets/wall/wall-19.mp4",
+      "poster": "assets/wall/wall-19.jpg",
+      "label": "海外作品 19 · AIGC品牌创意",
+      "duration": 39.566667
+    },
+    {
+      "id": "wall-20",
+      "src": "assets/wall/wall-20.mp4",
+      "poster": "assets/wall/wall-20.jpg",
+      "label": "海外作品 20 · AIGC品牌创意",
+      "duration": 32.333333
+    },
+    {
+      "id": "wall-21",
+      "src": "assets/wall/wall-21.mp4",
+      "poster": "assets/wall/wall-21.jpg",
+      "label": "海外作品 21 · AIGC品牌创意",
+      "duration": 44.9
+    }
+  ]
+}
