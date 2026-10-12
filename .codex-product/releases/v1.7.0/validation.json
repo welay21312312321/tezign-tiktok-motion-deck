@@ -1,0 +1,186 @@
+{
+  "version": "v1.7.0",
+  "date": "2026-10-12",
+  "baseline_commit": "a58dd88c91541f2809ecadd584c25160ef8ff4f2",
+  "scope": "P03 only; PC",
+  "checks": [
+    {
+      "name": "10 slide sections",
+      "passed": true
+    },
+    {
+      "name": "protected slide-1",
+      "passed": true
+    },
+    {
+      "name": "protected slide-2",
+      "passed": true
+    },
+    {
+      "name": "protected slide-4",
+      "passed": true
+    },
+    {
+      "name": "protected slide-5",
+      "passed": true
+    },
+    {
+      "name": "protected slide-6",
+      "passed": true
+    },
+    {
+      "name": "protected slide-7",
+      "passed": true
+    },
+    {
+      "name": "protected slide-8",
+      "passed": true
+    },
+    {
+      "name": "protected slide-9",
+      "passed": true
+    },
+    {
+      "name": "protected slide-10",
+      "passed": true
+    },
+    {
+      "name": "protected source p01",
+      "passed": true
+    },
+    {
+      "name": "protected source p02",
+      "passed": true
+    },
+    {
+      "name": "protected source p04",
+      "passed": true
+    },
+    {
+      "name": "protected source p05",
+      "passed": true
+    },
+    {
+      "name": "protected source p06",
+      "passed": true
+    },
+    {
+      "name": "protected source p07",
+      "passed": true
+    },
+    {
+      "name": "protected source p08",
+      "passed": true
+    },
+    {
+      "name": "protected source p09",
+      "passed": true
+    },
+    {
+      "name": "protected source p10",
+      "passed": true
+    },
+    {
+      "name": "protected deck.css",
+      "passed": true
+    },
+    {
+      "name": "protected brand.css",
+      "passed": true
+    },
+    {
+      "name": "protected deck.js",
+      "passed": true
+    },
+    {
+      "name": "protected p01.css",
+      "passed": true
+    },
+    {
+      "name": "protected p02.css",
+      "passed": true
+    },
+    {
+      "name": "protected data/wall.json",
+      "passed": true
+    },
+    {
+      "name": "protected assets/jingwei-portrait-p02.png",
+      "passed": true
+    },
+    {
+      "name": "raw values retain exact historical records",
+      "passed": true
+    },
+    {
+      "name": "rounded exposure 113.6",
+      "passed": true
+    },
+    {
+      "name": "140万 exact composition",
+      "passed": true
+    },
+    {
+      "name": "rounded local script 54.1",
+      "passed": true
+    },
+    {
+      "name": "paid scope and sample labels visible",
+      "passed": true
+    },
+    {
+      "name": "source distinguishes paid composition from uplift",
+      "passed": true
+    },
+    {
+      "name": "original case destinations",
+      "passed": true
+    },
+    {
+      "name": "no synthetic x10 outcomes",
+      "passed": true
+    },
+    {
+      "name": "same six prices",
+      "passed": true
+    },
+    {
+      "name": "21 original media items",
+      "passed": true
+    },
+    {
+      "name": "isolated P3 stylesheet loaded",
+      "passed": true
+    },
+    {
+      "name": "1280 PC visible content in bounds",
+      "passed": true
+    },
+    {
+      "name": "1920 PC visible content in bounds",
+      "passed": true
+    },
+    {
+      "name": "local video modal loaded",
+      "passed": true
+    },
+    {
+      "name": "read mode no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "motion toggle controls new proof entrance",
+      "passed": true
+    }
+  ],
+  "passed": 42,
+  "total": 42,
+  "browser_behavior": {
+    "video_modal": "wall-20, readyState 4",
+    "read_mode": "documentWidth=1280, viewport=1280",
+    "motion": "on=p03-proof-in; off static"
+  },
+  "public_verified": false,
+  "physical_projection_verified": false,
+  "speaker_rehearsal_verified": false
+}

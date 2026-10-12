@@ -1,14 +1,14 @@
 {
   "project_name": "TikTok大会10页Deck",
-  "current_version": "v1.6.0",
+  "current_version": "v1.7.0",
   "workflow": "agile-product-factory",
   "pages": 10,
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-12",
-  "delivery_status": "p02_PC_public_readback_verified",
+  "delivery_status": "p03_PC_verified_public_pending",
   "physical_phone_verified": false,
-  "content_iteration": "v1.6.0",
+  "content_iteration": "v1.7.0",
   "runtime_version": "v1.3.0",
   "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/",
   "preserved_concurrent_brand_and_motion_changes": true,
@@ -19,13 +19,14 @@
     "v1.5.0",
     "v1.5.1",
     "v1.5.2",
-    "v1.6.0"
+    "v1.6.0",
+    "v1.7.0"
   ],
   "source_reviewed": true,
   "normal_speed_full_audiovisual_reviewed": false,
   "baseline_assets_preserved": true,
-  "scope": "P02 company honors, GEA and speaker portrait; PC only",
-  "baseline_commit": "0f2f1cc522e93636d042f0fb98d126c6213dccf5",
+  "scope": "P03 historical evidence clarity; PC only",
+  "baseline_commit": "a58dd88c91541f2809ecadd584c25160ef8ff4f2",
   "previous_validation": {
     "version": "v1.4.0",
     "local_browser_checks": {
@@ -100,5 +101,22 @@
     "live_speaker_timing_verified": false,
     "public_version": "v1.6.0",
     "verified_content_commit": "a3166635479cbb437658dbd3cca69327333f0c9b"
+  },
+  "p03_validation": {
+    "status": "PC_pass_public_pending",
+    "desktop_viewports": [
+      "1280x720",
+      "1920x1080"
+    ],
+    "structural_checks": {
+      "passed": 42,
+      "total": 42
+    },
+    "protected_pages": "P01/P02/P04-P10 byte-equal",
+    "source_articles": "nine other articles byte-equal",
+    "public_verified": false,
+    "physical_projection_verified": false,
+    "live_speaker_timing_verified": false,
+    "independent_review": "passed;0 blocking"
   }
 }

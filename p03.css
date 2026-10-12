@@ -1,0 +1,27 @@
+/* P03: make historical evidence readable, with original measured values. */
+#slide-3 .slide-heading {margin:clamp(23px,3.8vh,42px) 0 clamp(18px,2.6vh,28px)}
+#slide-3 .slide-heading h2 {font-size:clamp(38px,3.65vw,70px);line-height:1.12}
+#slide-3 .pain-list {gap:clamp(24px,2.7vw,52px);margin-top:auto;margin-bottom:auto;min-height:0}
+#slide-3 .pain-list>article {padding-top:clamp(16px,2vh,23px);border-color:#55cab43d;min-width:0}
+#slide-3 .pain-list .line-number {font-size:clamp(12px,1vw,18px);margin-bottom:clamp(11px,1.4vh,16px);display:block}
+#slide-3 .pain-list h3 {font-size:clamp(21px,1.75vw,33px);line-height:1.3;font-weight:600;margin:0}
+#slide-3 .pain-list>article>p {font-size:clamp(13px,1.03vw,20px);line-height:1.6;margin-top:clamp(12px,1.6vh,18px);max-width:none;min-height:1.6em;color:#b0bfd0}
+#slide-3 .pain-case {margin-top:clamp(15px,2.2vh,24px);padding:clamp(16px,1.5vw,27px) 0 0;border-color:#55cab43d}
+#slide-3 .case-kicker {font-size:clamp(11px,.85vw,16px);letter-spacing:.03em;color:#5dd8c3;display:block;margin-bottom:clamp(12px,1.6vh,18px)}
+#slide-3 .proof-number {display:flex;align-items:baseline;gap:9px;line-height:1;white-space:nowrap}
+#slide-3 .proof-number strong {font:500 clamp(46px,4.65vw,89px)/1 Menlo,monospace;letter-spacing:-.075em;color:#f5fafb}
+#slide-3 .proof-number span {font-size:clamp(18px,1.7vw,32px);color:#5dd8c3}
+#slide-3 .proof-measure {font-size:clamp(14px,1.2vw,23px);line-height:1.4;color:#ebf2f7;margin:clamp(7px,1vh,12px) 0 0}
+#slide-3 .pain-list .pain-case .proof-result {font-size:clamp(13px,1.04vw,20px);color:#c3d0dd;line-height:1.55;margin-top:clamp(12px,1.6vh,18px);min-height:3.1em;max-width:none}
+#slide-3 .pain-list .pain-case .proof-scope {font-size:clamp(10px,.79vw,15px);color:#8fa6b8;line-height:1.5;margin-top:clamp(8px,1.2vh,13px);max-width:none}
+#slide-3 .pain-case .case-link {font-size:clamp(12px,.95vw,18px);margin-top:clamp(10px,1.3vh,15px);color:#5dd8c3}
+#slide-3 .closing-line {font-size:clamp(16px,1.5vw,28px);line-height:1.4;margin-top:clamp(18px,2.4vh,27px)}
+#slide-3 .footnote {font-size:clamp(9px,.68vw,13px);line-height:1.5;margin-top:10px;max-width:none;color:#8fa6b8}
+#slide-3.active .proof-number {animation:p03-proof-in .7s ease both}
+#slide-3.active .pain-list>article:nth-child(2) .proof-number {animation-delay:.1s}
+#slide-3.active .pain-list>article:nth-child(3) .proof-number {animation-delay:.2s}
+@keyframes p03-proof-in {from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.read-mode #slide-3 {min-height:900px}
+.read-mode #slide-3 .pain-list {margin:30px 0}
+@media (prefers-reduced-motion:reduce) {#slide-3 * {animation:none!important}}
+@media print {#slide-3 .slide-heading {margin:12px 0 15px}#slide-3 .proof-number strong {font-size:42px}#slide-3 .pain-list .pain-case .proof-result {min-height:0}}
