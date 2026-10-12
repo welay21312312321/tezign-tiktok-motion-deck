@@ -1,0 +1,37 @@
+{
+  "version": "v1.10.0",
+  "status": "PC_pass_public_pending",
+  "content_checks": {
+    "passed": 56,
+    "total": 56
+  },
+  "desktop_viewports": [
+    "1280x720",
+    "1920x1080"
+  ],
+  "protected_pages": "P01/P02/P03/P04/P06 byte-equal",
+  "shared_objects_preserved": 8,
+  "active_pages": 9,
+  "three_video_roles": [
+    "客户原素材",
+    "室内换人",
+    "黑人沙漠户外换人换场景"
+  ],
+  "native_playback": "3/3 actual time progression; exclusive play and leave-page pause passed",
+  "qr_originals": "both source hashes preserved; both software decoded",
+  "motion_toggle": "flywheel flow observed; motion-off passed",
+  "read_mode": "9 pages and horizontal bounds pass at both desktop sizes",
+  "independent_review": "0 blocking in source/structure/PC static scope",
+  "public_verified": false,
+  "physical_phone_verified": false,
+  "normal_speed_full_audiovisual_reviewed": false,
+  "physical_projection_verified": false,
+  "speaker_rehearsal_verified": false,
+  "source_sha256": {
+    "index.html": "b57e89bc51eb4f1f54cd67877b04ac39b5c291d0f01aebc2275f47f274dcbf18",
+    "sources.html": "ede229b5f396b8ad595c54a15d6ee9a3aa8c6790198ab944297556459980a626",
+    "deck.js": "baf6114bd66f9547892cd64d8e1037ba6f3c7348c915db1d3a66a7d3333c18b0",
+    "methods.css": "a6c29b668d9dfecc10479428e3de506d646ca4dbc97ac5b700289039e71d49b1"
+  },
+  "receipts": "Parent research/html-p07-defer-nanfu-20261012"
+}

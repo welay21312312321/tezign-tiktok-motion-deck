@@ -1,4 +1,4 @@
-/* Ten-page conference deck. Buildless. Media loads only in the visible wall. */
+/* Conference deck. Buildless. Media loads only in the visible wall. */
 (() => {
   'use strict';
   const slides = [...document.querySelectorAll('.slide')];
@@ -20,12 +20,13 @@
     return url.href;
   };
   function updateControls() {
+    if (!slides[index].classList.contains('character-comparison')) document.querySelectorAll('.comparison-gallery video').forEach(video => video.pause());
     byId('page-number').textContent = String(index + 1).padStart(2, '0');
     byId('control-title').textContent = slides[index].dataset.title;
-    byId('deck-progress').style.width = `${(index + 1) * 10}%`;
+    byId('deck-progress').style.width = `${(index + 1) / slides.length * 100}%`;
     byId('prev-button').disabled = index === 0;
     byId('next-button').disabled = index === slides.length - 1;
-    byId('status').textContent = `第 ${index + 1} 页，共 10 页。${slides[index].dataset.title}`;
+    byId('status').textContent = `第 ${index + 1} 页，共 ${slides.length} 页。${slides[index].dataset.title}`;
     byId('mode-button').textContent = reading ? '演示' : '阅读';
     document.body.classList.toggle('wall-active', index === 3);
     document.querySelectorAll('#contents-list button').forEach((b, i) => i === index ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
@@ -165,6 +166,10 @@
   videoDialog.addEventListener('close', () => {single.pause();single.removeAttribute('src');single.load();startWall();});
   resume.addEventListener('click', () => {if (!wallBuilt) buildWall();else startWall();});
   document.addEventListener('visibilitychange', () => document.hidden ? pauseWall() : startWall());
+  const comparisonVideos = [...document.querySelectorAll('.comparison-gallery video')];
+  comparisonVideos.forEach(video => video.addEventListener('play', () => {comparisonVideos.forEach(other => {if (other !== video) other.pause();});}));
+  const pauseComparisons = () => comparisonVideos.forEach(video => video.pause());
+  document.addEventListener('visibilitychange', () => {if (document.hidden) pauseComparisons();});
   byId('prev-button').addEventListener('click', () => navigate(index-1));
   byId('next-button').addEventListener('click', () => navigate(index+1));
   byId('mode-button').addEventListener('click', () => setMode(!reading));
@@ -206,13 +211,11 @@
     const dx=e.changedTouches[0].clientX-touchStart[0],dy=e.changedTouches[0].clientY-touchStart[1];
     if (Math.abs(dx)>70 && Math.abs(dx)>Math.abs(dy)*1.4) navigate(index+(dx<0?1:-1));touchStart=null;
   },{passive:true});
-  const marked=[0,12,43,91];
-  for(let i=0;i<103;i++){const dot=document.createElement('i');if(marked.includes(i))dot.className='winner';byId('sample-dots').append(dot);}
   const bars = document.querySelector('.signal-bars');
   if (bars) for(let i=0;i<30;i++){const b=document.createElement('i');b.style.height=`${15+((i*17)%41)}px`;b.style.animationDelay=`${i*.018}s`;bars.append(b);}
   const initial = /^#p(\d+)$/.exec(location.hash);if (initial) index=clamp(Number(initial[1])-1);
   window.addEventListener('hashchange',() => {const m=/^#p(\d+)$/.exec(location.hash);if(m)navigate(Number(m[1])-1,false);});
   narrow.addEventListener('change',() => setMode(narrow.matches));
   setMode(reading,false);navigate(index,false);
-  window.ConferenceDeck = {navigate,setMode,setMotion,getState:() => ({index,reading,motion,slides:slides.length,wallVisible,films:assets.length,tiles:tiles.length,playing:tiles.filter(t => !t.video.paused).length}),version:'v1.3.0'};
+  window.ConferenceDeck = {navigate,setMode,setMotion,getState:() => ({index,reading,motion,slides:slides.length,wallVisible,films:assets.length,tiles:tiles.length,playing:tiles.filter(t => !t.video.paused).length}),version:'v1.4.0'};
 })();
