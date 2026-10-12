@@ -6,7 +6,7 @@
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-12",
-  "delivery_status": "PC_verified_public_pending",
+  "delivery_status": "PC_and_public_verified",
   "physical_phone_verified": false,
   "content_iteration": "v1.10.0",
   "runtime_version": "v1.4.0",
@@ -173,10 +173,10 @@
     "public_version": "v1.9.0",
     "verified_content_commit": "2d241ad0474645ef4c1c27863930fb56c882c679"
   },
-  "public_verified": false,
+  "public_verified": true,
   "iteration_validation": {
     "version": "v1.10.0",
-    "status": "PC_pass_public_pending",
+    "status": "PC_and_public_pass",
     "content_checks": {
       "passed": 56,
       "total": 56
@@ -198,7 +198,7 @@
     "motion_toggle": "flywheel flow observed; motion-off passed",
     "read_mode": "9 pages and horizontal bounds pass at both desktop sizes",
     "independent_review": "0 blocking in source/structure/PC static scope",
-    "public_verified": false,
+    "public_verified": true,
     "physical_phone_verified": false,
     "normal_speed_full_audiovisual_reviewed": false,
     "physical_projection_verified": false,
@@ -209,6 +209,10 @@
       "deck.js": "baf6114bd66f9547892cd64d8e1037ba6f3c7348c915db1d3a66a7d3333c18b0",
       "methods.css": "a6c29b668d9dfecc10479428e3de506d646ca4dbc97ac5b700289039e71d49b1"
     },
-    "receipts": "Parent research/html-p07-defer-nanfu-20261012"
+    "receipts": "Parent research/html-p07-defer-nanfu-20261012",
+    "verified_content_commit": "7f1a882028fb221a71c8d5dfff7f77130e3907e9",
+    "public_source_articles_exact": 9,
+    "public_qr_loaded": true,
+    "public_outdoor_playback": true
   }
 }

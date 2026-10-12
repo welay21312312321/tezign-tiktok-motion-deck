@@ -1,0 +1,43 @@
+{
+  "version": "v1.10.0",
+  "verified_at": "2026-10-12T15:53:28.359177+00:00",
+  "status": "PC_and_public_verified",
+  "content_commit": "7f1a882028fb221a71c8d5dfff7f77130e3907e9",
+  "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/#p7",
+  "pages": 9,
+  "pages_build": {
+    "status": "built",
+    "commit": "7f1a882028fb221a71c8d5dfff7f77130e3907e9",
+    "updated_at": "2026-10-12T15:46:05Z",
+    "error": {
+      "message": null
+    }
+  },
+  "public_ui_pages": [
+    5,
+    7,
+    8,
+    9
+  ],
+  "public_source_articles": 9,
+  "public_sources_exact_text": true,
+  "public_qr_loaded": true,
+  "public_outdoor_playback_progress_seconds": 20.815455,
+  "public_leave_page_pause": true,
+  "content_checks": {
+    "passed": 56,
+    "total": 56
+  },
+  "independent_review": "0 blocking in source, structure and PC static review",
+  "scope": "PC only; P05 new user-confirmed figures; old P07 archived; exposure flywheel; correct three video cases; contact QR",
+  "physical_phone_verified": false,
+  "normal_speed_full_audiovisual_reviewed": false,
+  "physical_projection_verified": false,
+  "speaker_rehearsal_verified": false,
+  "preview_handoff": {
+    "url": "http://127.0.0.1:8765/",
+    "owned_session_id": 43391,
+    "retained_for_next_page_iteration": true
+  },
+  "receipts": "research/html-p07-defer-nanfu-20261012"
+}
