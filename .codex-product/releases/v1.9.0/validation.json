@@ -1,0 +1,212 @@
+{
+  "version": "v1.9.0",
+  "date": "2026-10-12",
+  "baseline_commit": "93d60da0c65db227028337598479e1bb941a6d42",
+  "checks": [
+    {
+      "name": "ten pages",
+      "passed": true
+    },
+    {
+      "name": "v1.9.0 content marker",
+      "passed": true
+    },
+    {
+      "name": "protected slide-1",
+      "passed": true
+    },
+    {
+      "name": "protected slide-2",
+      "passed": true
+    },
+    {
+      "name": "protected slide-3",
+      "passed": true
+    },
+    {
+      "name": "protected slide-4",
+      "passed": true
+    },
+    {
+      "name": "protected slide-5",
+      "passed": true
+    },
+    {
+      "name": "protected slide-6",
+      "passed": true
+    },
+    {
+      "name": "protected slide-7",
+      "passed": true
+    },
+    {
+      "name": "protected deck.css",
+      "passed": true
+    },
+    {
+      "name": "protected brand.css",
+      "passed": true
+    },
+    {
+      "name": "protected deck.js",
+      "passed": true
+    },
+    {
+      "name": "protected p01.css",
+      "passed": true
+    },
+    {
+      "name": "protected p02.css",
+      "passed": true
+    },
+    {
+      "name": "protected p03.css",
+      "passed": true
+    },
+    {
+      "name": "protected p05.css",
+      "passed": true
+    },
+    {
+      "name": "protected data/wall.json",
+      "passed": true
+    },
+    {
+      "name": "protected assets/jingwei-portrait-p02.png",
+      "passed": true
+    },
+    {
+      "name": "protected source p01",
+      "passed": true
+    },
+    {
+      "name": "protected source p04",
+      "passed": true
+    },
+    {
+      "name": "protected source p05",
+      "passed": true
+    },
+    {
+      "name": "protected source p06",
+      "passed": true
+    },
+    {
+      "name": "protected source p07",
+      "passed": true
+    },
+    {
+      "name": "P02 only exact new navigation",
+      "passed": true
+    },
+    {
+      "name": "P03 only exact new navigation",
+      "passed": true
+    },
+    {
+      "name": "four funnel stages",
+      "passed": true
+    },
+    {
+      "name": "four variations",
+      "passed": true
+    },
+    {
+      "name": "three close points",
+      "passed": true
+    },
+    {
+      "name": "no prices on new pages",
+      "passed": true
+    },
+    {
+      "name": "no influencer or live action offering",
+      "passed": true
+    },
+    {
+      "name": "existing portrait reused",
+      "passed": true
+    },
+    {
+      "name": "speaker role and email",
+      "passed": true
+    },
+    {
+      "name": "funnel illustration scope",
+      "passed": true
+    },
+    {
+      "name": "completed and future variants separated",
+      "passed": true
+    },
+    {
+      "name": "natural and paid recorded separately",
+      "passed": true
+    },
+    {
+      "name": "stable confirmed delivery cadence",
+      "passed": true
+    },
+    {
+      "name": "21 videos preserved",
+      "passed": true
+    },
+    {
+      "name": "20 tiles declared",
+      "passed": true,
+      "evidence": "unchanged wall.json 21 films and unchanged renderer Math.min(20, assets.length)"
+    },
+    {
+      "name": "P8 source/back targets",
+      "passed": true
+    },
+    {
+      "name": "P8 PC 1280 unobstructed",
+      "passed": true
+    },
+    {
+      "name": "P8 PC 1920 unobstructed",
+      "passed": true
+    },
+    {
+      "name": "P9 source/back targets",
+      "passed": true
+    },
+    {
+      "name": "P9 PC 1280 unobstructed",
+      "passed": true
+    },
+    {
+      "name": "P9 PC 1920 unobstructed",
+      "passed": true
+    },
+    {
+      "name": "P10 source/back targets",
+      "passed": true
+    },
+    {
+      "name": "P10 PC 1280 unobstructed",
+      "passed": true
+    },
+    {
+      "name": "P10 PC 1920 unobstructed",
+      "passed": true
+    },
+    {
+      "name": "menu and last page navigation",
+      "passed": true
+    },
+    {
+      "name": "animation and reading mode",
+      "passed": true
+    }
+  ],
+  "passed": 49,
+  "total": 49,
+  "limitations": [
+    "PC only",
+    "No physical projection or live speaker rehearsal",
+    "No new audiovisual review or media edit"
+  ],
+  "previous_p03_p05_validation": "research/html-p05-two-clients-20261012/validation.json"
+}
