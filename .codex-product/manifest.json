@@ -1,31 +1,55 @@
 {
   "project_name": "TikTok大会10页Deck",
-  "current_version": "v1.4.0",
+  "current_version": "v1.5.0",
   "workflow": "agile-product-factory",
   "pages": 10,
   "films": 21,
   "wall_tiles": 20,
-  "updated_at": "2026-10-11",
-  "delivery_status": "source_reviewed_browser_verified_release_candidate",
+  "updated_at": "2026-10-12",
+  "delivery_status": "p01_PC_verified_pending_deployment",
   "physical_phone_verified": false,
-  "content_iteration": "v1.4.0",
+  "content_iteration": "v1.5.0",
   "runtime_version": "v1.3.0",
   "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/",
   "preserved_concurrent_brand_and_motion_changes": true,
   "browser_verified": true,
-  "mobile_viewport_verified": true,
+  "mobile_viewport_verified": false,
   "versions": [
-    "v1.4.0"
+    "v1.4.0",
+    "v1.5.0"
   ],
   "source_reviewed": true,
   "normal_speed_full_audiovisual_reviewed": false,
   "baseline_assets_preserved": true,
-  "local_browser_checks": {
-    "passed": 577,
-    "total": 577
+  "scope": "P01 cover only",
+  "baseline_commit": "a93ffc624da54afef51c5cf3ed8db19d09146838",
+  "p01_validation": {
+    "status": "local_PC_pass",
+    "desktop_viewports": [
+      "1280x720",
+      "1920x1080"
+    ],
+    "protected_pages": "P02-P10 byte-equal",
+    "structural_checks": {
+      "passed": 13,
+      "total": 13
+    },
+    "motion_toggle": "pass",
+    "case_video_smoke": "32.333s duration, playing, readyState4",
+    "race_link": "P07 pass",
+    "acceptance_scope": "PC only per user 2026-10-12",
+    "physical_projection_verified": false,
+    "live_speaker_timing_verified": false
   },
-  "content_checks": {
-    "passed": 61,
-    "total": 61
+  "previous_validation": {
+    "version": "v1.4.0",
+    "local_browser_checks": {
+      "passed": 577,
+      "total": 577
+    },
+    "content_checks": {
+      "passed": 61,
+      "total": 61
+    }
   }
 }
