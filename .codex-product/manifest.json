@@ -6,7 +6,7 @@
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-12",
-  "delivery_status": "p02_PC_verified_public_pending",
+  "delivery_status": "p02_PC_public_readback_verified",
   "physical_phone_verified": false,
   "content_iteration": "v1.6.0",
   "runtime_version": "v1.3.0",
@@ -83,7 +83,7 @@
     "independent_review": "passed; 0 blocking defects"
   },
   "p02_validation": {
-    "status": "PC_pass_public_pending",
+    "status": "PC_and_public_pass",
     "desktop_viewports": [
       "1280x720",
       "1920x1080"
@@ -95,8 +95,10 @@
     "protected_pages": "P01 and P03-P10 byte-equal",
     "source_articles": "nine other articles byte-equal",
     "independent_review": "passed;0 blocking",
-    "public_verified": false,
+    "public_verified": true,
     "physical_projection_verified": false,
-    "live_speaker_timing_verified": false
+    "live_speaker_timing_verified": false,
+    "public_version": "v1.6.0",
+    "verified_content_commit": "a3166635479cbb437658dbd3cca69327333f0c9b"
   }
 }
