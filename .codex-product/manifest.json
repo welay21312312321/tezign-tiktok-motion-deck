@@ -1,14 +1,14 @@
 {
   "project_name": "TikTok大会10页Deck",
-  "current_version": "v1.7.0",
+  "current_version": "v1.8.0",
   "workflow": "agile-product-factory",
   "pages": 10,
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-12",
-  "delivery_status": "p03_PC_public_readback_verified",
+  "delivery_status": "p03_p05_PC_verified_integrating_new_method_pages",
   "physical_phone_verified": false,
-  "content_iteration": "v1.7.0",
+  "content_iteration": "v1.8.0",
   "runtime_version": "v1.3.0",
   "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/",
   "preserved_concurrent_brand_and_motion_changes": true,
@@ -20,13 +20,14 @@
     "v1.5.1",
     "v1.5.2",
     "v1.6.0",
-    "v1.7.0"
+    "v1.7.0",
+    "v1.8.0"
   ],
   "source_reviewed": true,
   "normal_speed_full_audiovisual_reviewed": false,
   "baseline_assets_preserved": true,
-  "scope": "P03 historical evidence clarity; PC only",
-  "baseline_commit": "a58dd88c91541f2809ecadd584c25160ef8ff4f2",
+  "scope": "P05 two clients and P03 boxed-content removal; PC only",
+  "baseline_commit": "edfa7e62b3c28659b4f539dc3d3a121f9729532c",
   "previous_validation": {
     "version": "v1.4.0",
     "local_browser_checks": {
@@ -120,5 +121,29 @@
     "independent_review": "passed;0 blocking",
     "public_version": "v1.7.0",
     "verified_content_commit": "30306d6e1cbf6bfcf15f26318e130997ff107223"
+  },
+  "p05_validation": {
+    "status": "PC_pass_public_pending",
+    "desktop_viewports": [
+      "1280x720",
+      "1920x1080"
+    ],
+    "structural_checks": {
+      "passed": 43,
+      "total": 43
+    },
+    "public_verified": false,
+    "protected_pages": "P01/P02/P04/P06-P10 byte-equal",
+    "source_articles": "9 articles except P05 byte-equal",
+    "runtime_change": "optional old chart initialization guard only",
+    "physical_projection_verified": false,
+    "live_speaker_timing_verified": false,
+    "independent_review": "passed;0 blocking"
+  },
+  "p03_latest_cleanup": {
+    "version": "v1.8.0",
+    "scope": "remove boxed scope suffixes and links; metrics preserved",
+    "PC_verified": true,
+    "public_verified": false
   }
 }

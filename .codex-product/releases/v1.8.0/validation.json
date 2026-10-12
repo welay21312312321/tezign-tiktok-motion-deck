@@ -1,0 +1,191 @@
+{
+  "version": "v1.8.0",
+  "date": "2026-10-12",
+  "baseline_commit": "edfa7e62b3c28659b4f539dc3d3a121f9729532c",
+  "scope": "P05 two clients and P03 boxed-content removal; PC only",
+  "checks": [
+    {
+      "name": "ten pages",
+      "passed": true
+    },
+    {
+      "name": "protected slide-1",
+      "passed": true
+    },
+    {
+      "name": "protected slide-2",
+      "passed": true
+    },
+    {
+      "name": "protected slide-4",
+      "passed": true
+    },
+    {
+      "name": "protected slide-6",
+      "passed": true
+    },
+    {
+      "name": "protected slide-7",
+      "passed": true
+    },
+    {
+      "name": "protected slide-8",
+      "passed": true
+    },
+    {
+      "name": "protected slide-9",
+      "passed": true
+    },
+    {
+      "name": "protected slide-10",
+      "passed": true
+    },
+    {
+      "name": "protected source p01",
+      "passed": true
+    },
+    {
+      "name": "protected source p02",
+      "passed": true
+    },
+    {
+      "name": "protected source p03",
+      "passed": true
+    },
+    {
+      "name": "protected source p04",
+      "passed": true
+    },
+    {
+      "name": "protected source p06",
+      "passed": true
+    },
+    {
+      "name": "protected source p07",
+      "passed": true
+    },
+    {
+      "name": "protected source p08",
+      "passed": true
+    },
+    {
+      "name": "protected source p09",
+      "passed": true
+    },
+    {
+      "name": "protected source p10",
+      "passed": true
+    },
+    {
+      "name": "protected deck.css",
+      "passed": true
+    },
+    {
+      "name": "protected brand.css",
+      "passed": true
+    },
+    {
+      "name": "protected p01.css",
+      "passed": true
+    },
+    {
+      "name": "protected p02.css",
+      "passed": true
+    },
+    {
+      "name": "protected p03.css",
+      "passed": true
+    },
+    {
+      "name": "protected data/wall.json",
+      "passed": true
+    },
+    {
+      "name": "protected assets/jingwei-portrait-p02.png",
+      "passed": true
+    },
+    {
+      "name": "runtime change exactly optional chart guard",
+      "passed": true
+    },
+    {
+      "name": "P03 exact requested cleanup only",
+      "passed": true
+    },
+    {
+      "name": "P05 two client blocks",
+      "passed": true
+    },
+    {
+      "name": "household original raw value and rounded display",
+      "passed": true
+    },
+    {
+      "name": "phone original source precision and attribution",
+      "passed": true
+    },
+    {
+      "name": "country coverage matches independent source",
+      "passed": true
+    },
+    {
+      "name": "country counts and provenance label",
+      "passed": true
+    },
+    {
+      "name": "P05 red box and secondary metrics removed",
+      "passed": true
+    },
+    {
+      "name": "P03 boxed links removed",
+      "passed": true
+    },
+    {
+      "name": "P03 boxed scope suffixes removed",
+      "passed": true
+    },
+    {
+      "name": "historical detail remains in source",
+      "passed": true
+    },
+    {
+      "name": "same six prices",
+      "passed": true
+    },
+    {
+      "name": "21 original media",
+      "passed": true
+    },
+    {
+      "name": "version and cache URLs",
+      "passed": true
+    },
+    {
+      "name": "P05 1280 PC complete",
+      "passed": true
+    },
+    {
+      "name": "P03 1280 cleanup visible",
+      "passed": true
+    },
+    {
+      "name": "P05 1920 PC complete",
+      "passed": true
+    },
+    {
+      "name": "P03 1920 cleanup visible",
+      "passed": true
+    }
+  ],
+  "passed": 43,
+  "total": 43,
+  "browser_behavior": {
+    "direct_route": "#p5 and #p3 active after initialization",
+    "navigation": "P5 to P6 and back passed",
+    "reading": "1280 document width equals viewport; 6/12 country lists complete",
+    "motion": "p05-proof-in on; off toggle passes"
+  },
+  "public_verified": false,
+  "physical_projection_verified": false,
+  "speaker_rehearsal_verified": false
+}

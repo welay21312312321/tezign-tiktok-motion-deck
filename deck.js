@@ -209,7 +209,7 @@
   const marked=[0,12,43,91];
   for(let i=0;i<103;i++){const dot=document.createElement('i');if(marked.includes(i))dot.className='winner';byId('sample-dots').append(dot);}
   const bars = document.querySelector('.signal-bars');
-  for(let i=0;i<30;i++){const b=document.createElement('i');b.style.height=`${15+((i*17)%41)}px`;b.style.animationDelay=`${i*.018}s`;bars.append(b);}
+  if (bars) for(let i=0;i<30;i++){const b=document.createElement('i');b.style.height=`${15+((i*17)%41)}px`;b.style.animationDelay=`${i*.018}s`;bars.append(b);}
   const initial = /^#p(\d+)$/.exec(location.hash);if (initial) index=clamp(Number(initial[1])-1);
   window.addEventListener('hashchange',() => {const m=/^#p(\d+)$/.exec(location.hash);if(m)navigate(Number(m[1])-1,false);});
   narrow.addEventListener('change',() => setMode(narrow.matches));

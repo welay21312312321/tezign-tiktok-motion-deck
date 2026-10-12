@@ -1,0 +1,26 @@
+/* P05: two client project results, original scope preserved. */
+#slide-5 .slide-heading {margin:clamp(28px,4.5vh,50px) 0 clamp(22px,3.8vh,42px)}
+#slide-5 .slide-heading h2 {font-size:clamp(40px,4.2vw,80px);line-height:1.12}
+#slide-5 .p05-source {margin-left:20px;color:#87acae;text-decoration:underline;text-underline-offset:4px}
+#slide-5 .client-proof-grid {display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,3.2vw,62px);margin:auto 0;min-height:0}
+#slide-5 .client-proof {min-width:0;border-top:1px solid #55cab456;padding:clamp(20px,2.5vh,32px) 0 0}
+#slide-5 .client-kicker {font:500 clamp(11px,.85vw,16px)/1.3 Menlo,monospace;color:#54dec5;letter-spacing:.08em}
+#slide-5 .client-proof h3 {font-size:clamp(23px,2.1vw,40px);line-height:1.2;margin:clamp(10px,1.6vh,18px) 0 clamp(20px,2.8vh,31px);font-weight:500}
+#slide-5 .client-reach {display:flex;align-items:baseline;gap:clamp(9px,1vw,20px);white-space:nowrap;line-height:1}
+#slide-5 .client-reach strong {font:500 clamp(74px,7.3vw,140px)/1 Menlo,monospace;letter-spacing:-.075em;color:#f5fafb}
+#slide-5 .client-reach>span {font-size:clamp(24px,2.8vw,52px);color:#54dec5}
+#slide-5 .reach-label {font-size:clamp(16px,1.5vw,28px);line-height:1.4;margin:clamp(10px,1.5vh,18px) 0 0;color:#dbe5ef}
+#slide-5 .reach-scope {font-size:clamp(10px,.85vw,16px);line-height:1.5;color:#8fa6b8;margin:clamp(8px,1.2vh,13px) 0 0}
+#slide-5 .coverage {margin-top:clamp(24px,4vh,43px);border-top:1px solid #55cab430;padding-top:clamp(16px,2.5vh,27px)}
+#slide-5 .coverage-count {display:flex;align-items:baseline;gap:12px;color:#dae5ef}
+#slide-5 .coverage-count strong {font:500 clamp(29px,2.8vw,52px)/1 Menlo,monospace;color:#54dec5}
+#slide-5 .coverage-count span {font-size:clamp(15px,1.2vw,23px)}
+#slide-5 .country-list {display:flex;flex-wrap:wrap;gap:clamp(8px,.8vw,15px);margin-top:clamp(14px,2vh,22px);list-style:none;padding:0}
+#slide-5 .country-list li {font-size:clamp(12px,1vw,19px);line-height:1.3;padding:8px 12px;border:1px solid #55cab424;background:#55cab408;color:#bfcedc}
+#slide-5.active .client-reach {animation:p05-proof-in .75s ease both}
+#slide-5.active .client-proof:nth-child(2) .client-reach {animation-delay:.12s}
+@keyframes p05-proof-in {from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+.read-mode #slide-5 {min-height:900px}
+.read-mode #slide-5 .client-proof-grid {margin:30px 0}
+@media(prefers-reduced-motion:reduce){#slide-5 *{animation:none!important}}
+@media print{#slide-5 .client-reach strong{font-size:64px}#slide-5 .slide-heading{margin:12px 0 20px}}
