@@ -6,7 +6,7 @@
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-12",
-  "delivery_status": "PC_candidate_verified_public_pending",
+  "delivery_status": "p01_PC_public_readback_verified",
   "physical_phone_verified": false,
   "content_iteration": "v1.5.2",
   "runtime_version": "v1.3.0",
@@ -59,7 +59,7 @@
     "independent_review": "passed; blocking defects 0"
   },
   "p01_validation": {
-    "status": "PC_pass_public_pending",
+    "status": "PC_and_public_pass",
     "desktop_viewports": [
       "1280x720",
       "1920x1080"
@@ -74,8 +74,11 @@
     "motion_toggle": "pass",
     "source_review": "original nine-language demo table and existing Russian-frame review; RO demo and ID distinction retained",
     "acceptance_scope": "PC only",
-    "public_verified": false,
+    "public_verified": true,
     "physical_projection_verified": false,
-    "live_speaker_timing_verified": false
+    "live_speaker_timing_verified": false,
+    "public_version": "v1.5.2",
+    "verified_content_commit": "6a90ea1306619eae52ea91467ab6461fc2deea56",
+    "independent_review": "passed; 0 blocking defects"
   }
 }

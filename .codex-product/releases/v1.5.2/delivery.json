@@ -1,0 +1,31 @@
+{
+  "version": "v1.5.2",
+  "date": "2026-10-12",
+  "status": "PC_public_verified",
+  "scope": "P1 language and channel increment; PC only",
+  "content_commit": "6a90ea1306619eae52ea91467ab6461fc2deea56",
+  "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/#p1",
+  "build": {
+    "status": "built",
+    "commit": "6a90ea1306619eae52ea91467ab6461fc2deea56",
+    "updated_at": "2026-10-12T09:09:03Z"
+  },
+  "validation": {
+    "passed": 35,
+    "total": 35,
+    "receipt": "validation.json"
+  },
+  "protected": "P02-P10/shared CSS/JS/media manifest unchanged",
+  "desktop_views": [
+    "1280x720",
+    "1920x1080"
+  ],
+  "physical_projection_verified": false,
+  "speaker_rehearsal_verified": false,
+  "next_page": 2,
+  "files": {
+    "index.html": "e59638aac094eda9d217d1302c93125890938e7bf9f010463424a299161c83ed",
+    "p01.css": "2da8253e1648457614457f70c61f321853ee450828a5e2756f8cda5dcc293d7f",
+    "sources.html": "67411eb67ac313960fee84d9760e1dda5291bde6da800df6bdb7b258b1701621"
+  }
+}
