@@ -6,7 +6,7 @@
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-12",
-  "delivery_status": "p01_PC_verified_pending_deployment",
+  "delivery_status": "p01_PC_public_readback_verified",
   "physical_phone_verified": false,
   "content_iteration": "v1.5.0",
   "runtime_version": "v1.3.0",
@@ -24,7 +24,7 @@
   "scope": "P01 cover only",
   "baseline_commit": "a93ffc624da54afef51c5cf3ed8db19d09146838",
   "p01_validation": {
-    "status": "local_PC_pass",
+    "status": "PC_and_public_pass",
     "desktop_viewports": [
       "1280x720",
       "1920x1080"
@@ -39,7 +39,10 @@
     "race_link": "P07 pass",
     "acceptance_scope": "PC only per user 2026-10-12",
     "physical_projection_verified": false,
-    "live_speaker_timing_verified": false
+    "live_speaker_timing_verified": false,
+    "public_verified": true,
+    "verified_content_commit": "eff97692adc8d9d98de0d629013a981b649ecd31",
+    "public_version": "v1.5.0"
   },
   "previous_validation": {
     "version": "v1.4.0",
