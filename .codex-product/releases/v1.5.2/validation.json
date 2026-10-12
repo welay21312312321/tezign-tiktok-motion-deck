@@ -1,0 +1,148 @@
+{
+  "baseline": "006d2ab03c9bc499116c0075986e6d305fa497c5",
+  "scope": "PC only, actual sampled layout and motion-toggle behavior",
+  "checks": [
+    {
+      "check": "10 pages retained",
+      "pass": true
+    },
+    {
+      "check": "P02-P10 unchanged",
+      "pass": true
+    },
+    {
+      "check": "P02-P10 source unchanged",
+      "pass": true
+    },
+    {
+      "check": "deck.css unchanged",
+      "pass": true
+    },
+    {
+      "check": "brand.css unchanged",
+      "pass": true
+    },
+    {
+      "check": "deck.js unchanged",
+      "pass": true
+    },
+    {
+      "check": "data/wall.json unchanged",
+      "pass": true
+    },
+    {
+      "check": "exact two-line title retained",
+      "pass": true
+    },
+    {
+      "check": "all five channel labels",
+      "pass": true
+    },
+    {
+      "check": "11 distinct language labels",
+      "pass": true
+    },
+    {
+      "check": "eight added labels backed by reviewed sources",
+      "pass": true
+    },
+    {
+      "check": "demo and ID boundaries in P01 source",
+      "pass": true
+    },
+    {
+      "check": "no historical cover cases reintroduced",
+      "pass": true
+    },
+    {
+      "check": "v1.5.2 cache key",
+      "pass": true
+    },
+    {
+      "check": "1280: actual viewport and document width",
+      "pass": true
+    },
+    {
+      "check": "1280: title fully visible and fits",
+      "pass": true
+    },
+    {
+      "check": "1280: 11 language labels fit",
+      "pass": true
+    },
+    {
+      "check": "1280: five platform cards fit",
+      "pass": true
+    },
+    {
+      "check": "1280: labels and channels below title",
+      "pass": true
+    },
+    {
+      "check": "1280: language group above channel group",
+      "pass": true
+    },
+    {
+      "check": "1280: platform cards do not overlap",
+      "pass": true
+    },
+    {
+      "check": "1280: channels above footer",
+      "pass": true
+    },
+    {
+      "check": "1280: footer above controls",
+      "pass": true
+    },
+    {
+      "check": "1920: actual viewport and document width",
+      "pass": true
+    },
+    {
+      "check": "1920: title fully visible and fits",
+      "pass": true
+    },
+    {
+      "check": "1920: 11 language labels fit",
+      "pass": true
+    },
+    {
+      "check": "1920: five platform cards fit",
+      "pass": true
+    },
+    {
+      "check": "1920: labels and channels below title",
+      "pass": true
+    },
+    {
+      "check": "1920: language group above channel group",
+      "pass": true
+    },
+    {
+      "check": "1920: platform cards do not overlap",
+      "pass": true
+    },
+    {
+      "check": "1920: channels above footer",
+      "pass": true
+    },
+    {
+      "check": "1920: footer above controls",
+      "pass": true
+    },
+    {
+      "check": "motion toggle disables all P1 animation and retains 11 labels and 5 channels",
+      "pass": true
+    },
+    {
+      "check": "all five channels animate when motion enabled",
+      "pass": true
+    },
+    {
+      "check": "exact language label set",
+      "pass": true
+    }
+  ],
+  "passed": 35,
+  "total": 35
+}
