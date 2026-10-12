@@ -6,7 +6,7 @@
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-12",
-  "delivery_status": "PC_verified_public_pending",
+  "delivery_status": "PC_and_public_verified",
   "physical_phone_verified": false,
   "content_iteration": "v1.9.0",
   "runtime_version": "v1.3.0",
@@ -124,7 +124,7 @@
     "verified_content_commit": "30306d6e1cbf6bfcf15f26318e130997ff107223"
   },
   "p05_validation": {
-    "status": "PC_pass_public_pending",
+    "status": "PC_and_public_pass",
     "desktop_viewports": [
       "1280x720",
       "1920x1080"
@@ -133,22 +133,25 @@
       "passed": 43,
       "total": 43
     },
-    "public_verified": false,
+    "public_verified": true,
     "protected_pages": "P01/P02/P04/P06-P10 byte-equal",
     "source_articles": "9 articles except P05 byte-equal",
     "runtime_change": "optional old chart initialization guard only",
     "physical_projection_verified": false,
     "live_speaker_timing_verified": false,
-    "independent_review": "passed;0 blocking"
+    "independent_review": "passed;0 blocking",
+    "public_version": "v1.9.0",
+    "verified_content_commit": "2d241ad0474645ef4c1c27863930fb56c882c679"
   },
   "p03_latest_cleanup": {
     "version": "v1.8.0",
     "scope": "remove boxed scope suffixes and links; metrics preserved",
     "PC_verified": true,
-    "public_verified": false
+    "public_verified": true,
+    "public_version": "v1.9.0"
   },
   "methods_close_validation": {
-    "status": "PC_pass_public_pending",
+    "status": "PC_and_public_pass",
     "desktop_viewports": [
       "1280x720",
       "1920x1080"
@@ -162,9 +165,11 @@
     "source_articles": "P01/P04/P05/P06/P07 unchanged; P02/P03 exact navigation-only edits",
     "motion_toggle": "pass",
     "read_mode": "1280 and 1920 horizontal bounds pass",
-    "public_verified": false,
+    "public_verified": true,
     "physical_projection_verified": false,
     "live_speaker_timing_verified": false,
-    "independent_review": "passed; 0 blocking; 1280 screenshots and candidate/source check"
+    "independent_review": "passed; 0 blocking; 1280 screenshots and candidate/source check",
+    "public_version": "v1.9.0",
+    "verified_content_commit": "2d241ad0474645ef4c1c27863930fb56c882c679"
   }
 }

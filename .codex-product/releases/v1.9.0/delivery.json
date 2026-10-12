@@ -1,0 +1,112 @@
+{
+  "version": "v1.9.0",
+  "date": "2026-10-12",
+  "status": "PC_public_verified",
+  "scope": "P08/P09/P10 replacement plus P03/P05 cleanup; PC only",
+  "content_commit": "2d241ad0474645ef4c1c27863930fb56c882c679",
+  "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/#p8",
+  "build": {
+    "commit": "2d241ad0474645ef4c1c27863930fb56c882c679",
+    "error": {
+      "message": null
+    },
+    "status": "built",
+    "updated_at": "2026-10-12T12:06:57Z"
+  },
+  "validation": {
+    "passed": 49,
+    "total": 49
+  },
+  "independent_review": "passed; 0 blocking; final 1280 visual review",
+  "public_pages": [
+    {
+      "page": 3,
+      "version": true,
+      "active": true,
+      "unobstructed": true,
+      "body_matches": true,
+      "styles": true,
+      "images": true
+    },
+    {
+      "page": 5,
+      "version": true,
+      "active": true,
+      "unobstructed": true,
+      "body_matches": true,
+      "styles": true,
+      "images": true
+    },
+    {
+      "page": 8,
+      "version": true,
+      "active": true,
+      "unobstructed": true,
+      "body_matches": true,
+      "styles": true,
+      "images": true
+    },
+    {
+      "page": 9,
+      "version": true,
+      "active": true,
+      "unobstructed": true,
+      "body_matches": true,
+      "styles": true,
+      "images": true
+    },
+    {
+      "page": 10,
+      "version": true,
+      "active": true,
+      "unobstructed": true,
+      "body_matches": true,
+      "styles": true,
+      "images": true
+    }
+  ],
+  "public_source_articles": [
+    {
+      "page": 2,
+      "matches": true
+    },
+    {
+      "page": 3,
+      "matches": true
+    },
+    {
+      "page": 5,
+      "matches": true
+    },
+    {
+      "page": 8,
+      "matches": true
+    },
+    {
+      "page": 9,
+      "matches": true
+    },
+    {
+      "page": 10,
+      "matches": true
+    }
+  ],
+  "physical_projection_verified": false,
+  "live_speaker_timing_verified": false,
+  "physical_phone_verified": false,
+  "full_audiovisual_reviewed_this_round": false,
+  "screenshots": [
+    "research/html-methods-close-20261012/public-p03.png",
+    "research/html-methods-close-20261012/public-p05.png",
+    "research/html-methods-close-20261012/public-p08.png",
+    "research/html-methods-close-20261012/public-p09.png",
+    "research/html-methods-close-20261012/public-p10.png"
+  ],
+  "files": {
+    "index.html": "401dc2f80626dd36707c5e3d5e34707a21196fe398f0a0d2d437cb06f46f555a",
+    "sources.html": "d7cf12633f14e60d07dfddc00bfd43700369b30e4c36d1e897fbb7ff828e43f4",
+    "methods.css": "ab6551a3bef09657fe9ef17cd902c5b58e7f5ea4b710b14059ff200ba8cadb16",
+    "p05.css": "67243c4a2832d208c55e02dde819a9a0a7c6c8b2f12e857e626ecf14b5aa4ade",
+    "deck.js": "c6a185c27758135d95baf9b232077f6fc4405da60550382bfaf8770a366826e9"
+  }
+}
