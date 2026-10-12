@@ -1,14 +1,14 @@
 {
   "project_name": "TikTok大会10页Deck",
-  "current_version": "v1.5.0",
+  "current_version": "v1.5.1",
   "workflow": "agile-product-factory",
   "pages": 10,
   "films": 21,
   "wall_tiles": 20,
   "updated_at": "2026-10-12",
-  "delivery_status": "p01_PC_public_readback_verified",
+  "delivery_status": "P01_PC_candidate_verified_public_pending",
   "physical_phone_verified": false,
-  "content_iteration": "v1.5.0",
+  "content_iteration": "v1.5.1",
   "runtime_version": "v1.3.0",
   "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/",
   "preserved_concurrent_brand_and_motion_changes": true,
@@ -16,14 +16,26 @@
   "mobile_viewport_verified": false,
   "versions": [
     "v1.4.0",
-    "v1.5.0"
+    "v1.5.0",
+    "v1.5.1"
   ],
   "source_reviewed": true,
   "normal_speed_full_audiovisual_reviewed": false,
   "baseline_assets_preserved": true,
-  "scope": "P01 cover only",
-  "baseline_commit": "a93ffc624da54afef51c5cf3ed8db19d09146838",
-  "p01_validation": {
+  "scope": "P01 social illustration and reference title only",
+  "baseline_commit": "bdc03d9b6735904d96875c7275d4f34ffdf0d3bd",
+  "previous_validation": {
+    "version": "v1.4.0",
+    "local_browser_checks": {
+      "passed": 577,
+      "total": 577
+    },
+    "content_checks": {
+      "passed": 61,
+      "total": 61
+    }
+  },
+  "previous_p01_validation": {
     "status": "PC_and_public_pass",
     "desktop_viewports": [
       "1280x720",
@@ -44,15 +56,23 @@
     "verified_content_commit": "eff97692adc8d9d98de0d629013a981b649ecd31",
     "public_version": "v1.5.0"
   },
-  "previous_validation": {
-    "version": "v1.4.0",
-    "local_browser_checks": {
-      "passed": 577,
-      "total": 577
+  "p01_validation": {
+    "status": "PC_pass_public_pending",
+    "desktop_viewports": [
+      "1280x720",
+      "1920x1080"
+    ],
+    "protected_pages": "P02-P10 byte-equal",
+    "structural_checks": {
+      "passed": 22,
+      "total": 22
     },
-    "content_checks": {
-      "passed": 61,
-      "total": 61
-    }
+    "motion_toggle": "pass",
+    "continuous_social_animation": "DOM transforms and route offset change",
+    "read_mode": "pass",
+    "acceptance_scope": "PC only per user 2026-10-12",
+    "physical_projection_verified": false,
+    "live_speaker_timing_verified": false,
+    "public_verified": false
   }
 }

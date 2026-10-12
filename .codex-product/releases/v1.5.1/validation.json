@@ -1,0 +1,96 @@
+{
+  "baseline_commit": "bdc03d9b6735904d96875c7275d4f34ffdf0d3bd",
+  "passed": 22,
+  "total": 22,
+  "checks": [
+    {
+      "check": "10 slides retained",
+      "pass": true
+    },
+    {
+      "check": "P02-P10 byte-equal",
+      "pass": true
+    },
+    {
+      "check": "deck.css byte-equal",
+      "pass": true
+    },
+    {
+      "check": "brand.css byte-equal",
+      "pass": true
+    },
+    {
+      "check": "deck.js byte-equal",
+      "pass": true
+    },
+    {
+      "check": "data/wall.json byte-equal",
+      "pass": true
+    },
+    {
+      "check": "P02-P10 sources byte-equal",
+      "pass": true
+    },
+    {
+      "check": "exact reference title",
+      "pass": true
+    },
+    {
+      "check": "cover historical cards and counts removed",
+      "pass": true
+    },
+    {
+      "check": "three social channels and illustration label",
+      "pass": true
+    },
+    {
+      "check": "no cover case player links",
+      "pass": true
+    },
+    {
+      "check": "no new media files",
+      "pass": true
+    },
+    {
+      "check": "content version v1.5.1",
+      "pass": true
+    },
+    {
+      "check": "PC 1280 width and title fit",
+      "pass": true
+    },
+    {
+      "check": "PC 1280 platform cards below title",
+      "pass": true
+    },
+    {
+      "check": "PC 1280 footer above controls",
+      "pass": true
+    },
+    {
+      "check": "PC 1920 width and title fit",
+      "pass": true
+    },
+    {
+      "check": "PC 1920 platform cards below title",
+      "pass": true
+    },
+    {
+      "check": "PC 1920 footer above controls",
+      "pass": true
+    },
+    {
+      "check": "continuous animation changed across DOM samples",
+      "pass": true
+    },
+    {
+      "check": "motion off disables all P01 animation",
+      "pass": true
+    },
+    {
+      "check": "reading mode disables P01 animations",
+      "pass": true
+    }
+  ],
+  "scope": "PC only; physical projection and speaker rehearsal not checked"
+}
