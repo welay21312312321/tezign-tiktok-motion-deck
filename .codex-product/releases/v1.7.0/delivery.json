@@ -1,0 +1,51 @@
+{
+  "version": "v1.7.0",
+  "date": "2026-10-12",
+  "status": "PC_public_verified",
+  "scope": "P03 only; PC",
+  "content_commit": "30306d6e1cbf6bfcf15f26318e130997ff107223",
+  "public_url": "https://welay21312312321.github.io/tezign-tiktok-motion-deck/#p3",
+  "build": {
+    "commit": "30306d6e1cbf6bfcf15f26318e130997ff107223",
+    "error": {
+      "message": null
+    },
+    "status": "built",
+    "updated_at": "2026-10-12T11:37:33Z"
+  },
+  "validation": {
+    "passed": 42,
+    "total": 42
+  },
+  "independent_review": "passed;0 blocking",
+  "protected": "9 pages + 9 source articles + 7 shared files byte-equal",
+  "public_readback": {
+    "overflow": [],
+    "raw": [
+      "1136162",
+      "1400000",
+      "540693"
+    ],
+    "scope": [
+      "全 AI 制作 · 含付费投流",
+      "俄罗斯项目 · 含付费加热",
+      "印尼本土 · 自然 / 付费未拆分"
+    ],
+    "styleLoaded": true,
+    "version": "v1.7.0",
+    "viewport": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "public_source_has_exact_values_and_paid_composition": true,
+  "physical_projection_verified": false,
+  "speaker_rehearsal_verified": false,
+  "full_audiovisual_reviewed_this_round": false,
+  "files": {
+    "index.html": "bf37f57a6c9f5b7e7b42ae584086ac74ea6480eb4f60ba80d337fc7d463296a1",
+    "p03.css": "03c1323ad9de3eb73b61a303891d1e88cdb85b4054e493470588c22a95c5eeb4",
+    "sources.html": "17f99d57c7d38d7ef98ace79f27d60bf9c22aa61044a1867ddae0030bfe53555"
+  },
+  "screenshot": "research/html-p03-proof-20261012/public-p03.png"
+}

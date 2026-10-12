@@ -180,7 +180,8 @@
     "read_mode": "documentWidth=1280, viewport=1280",
     "motion": "on=p03-proof-in; off static"
   },
-  "public_verified": false,
+  "public_verified": true,
   "physical_projection_verified": false,
-  "speaker_rehearsal_verified": false
+  "speaker_rehearsal_verified": false,
+  "independent_review": "passed;0 blocking"
 }
